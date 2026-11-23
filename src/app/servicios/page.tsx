@@ -1,0 +1,5 @@
+import type {Metadata} from "next";
+import {services} from "@/lib/site";
+import ServiceCard from "@/components/ServiceCard";
+export const metadata:Metadata={title:"Servicios tecnológicos en Paraguay",description:"Conocé las soluciones CNID: WhatsApp empresarial, SMS masivos, hosting, VPS, software a medida, cloud, data center, soporte y correo corporativo."};
+export default function Services(){return <><section className="page-hero"><div className="wrap"><div className="breadcrumbs"><a href="/">Inicio</a> / Servicios</div><span className="eyebrow">NUESTRO ECOSISTEMA</span><h1>Soluciones digitales para <span className="gradient-text">hacer avanzar tu negocio.</span></h1><p>Un portafolio integral de tecnología, comunicaciones e infraestructura para empresas, instituciones y organizaciones en Paraguay.</p></div></section><section className="section"><div className="wrap"><div className="service-grid">{services.map((s,i)=><ServiceCard key={s.slug} service={s} index={i}/>)}</div></div></section></>}

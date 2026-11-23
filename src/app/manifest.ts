@@ -1,0 +1,2 @@
+import type {MetadataRoute} from "next";
+export default function manifest():MetadataRoute.Manifest{return {name:"CNID – Centro Nacional de Información Digital",short_name:"CNID",description:"Tecnología, comunicaciones e infraestructura digital.",start_url:"/",display:"standalone",background_color:"#080b12",theme_color:"#080b12",lang:"es-PY",icons:[{src:"/icon.svg",sizes:"any",type:"image/svg+xml"}]};}
