@@ -4,7 +4,7 @@ export const site = {
   url: "https://cnid.com.py",
   phoneDisplay: "+595 994 854 167",
   whatsapp: "595994854167",
-  email: "contacto@cnid.com.py",
+  email: "info@cnid.com.py",
   location: "Paraguay",
   supportWhatsapp: "595994854167",
   supportPhoneDisplay: "+595 994 854 167",
