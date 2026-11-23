@@ -20,7 +20,7 @@ npm start
 ```
 
 ## Antes de publicar
-1. Reemplazar `+595000000000` y `595000000000` por el WhatsApp comercial real de CNID.
+1. ~~Reemplazar el WhatsApp de ejemplo~~ Hecho: WhatsApp comercial y de soporte `+595 994 854 167`.
 2. Confirmar dirección, teléfono, correo, horarios y enlaces sociales en `src/lib/site.ts`.
 3. Revisar textos comerciales, cobertura y capacidades publicadas. No se declaran certificaciones, SLA, uptime o características no confirmadas.
 4. Actualizar `https://cnid.com.py` si se usa otro dominio canónico.
